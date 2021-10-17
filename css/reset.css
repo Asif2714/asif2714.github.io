@@ -1,0 +1,15 @@
+/*Reset CSS file for resetting 19 html elements */
+html, body, div, h1, h2, h3, 
+p, img, ul, li, header, footer, nav, 
+section, article, figure, 
+figcaption,table, th{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    list-style: none;
+    font-weight: 100;
+    box-sizing: border-box;
+}     
+/*END of reset CSS file */

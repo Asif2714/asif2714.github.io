@@ -1,0 +1,213 @@
+/* Total 29 syles */
+
+
+
+/* STYLE RULES APPLICABLE TO ALL FORMS */
+body{
+    background: url(../img/blacksand1080p.jpg);
+    background-repeat: none;
+    background-size: cover;
+    font-family: sans-serif;
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#topGap{
+    padding-top:3em;
+}
+
+form{
+    width: 20em;
+    height: 70%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    border-radius: 15px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 1em;
+}
+
+#topLogo{
+    padding-top: 1em;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#topLogo img{
+    width: 40px;
+}
+
+#topText{
+    font-size:large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#mainContent{
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+
+.inputBox{
+    width: 16.5em;
+    padding: 1.1em;
+    border-radius: 10px;
+    border: black solid 0.1em;
+    margin-bottom: 0.5em;
+}
+
+/* For Firefox and others */
+::placeholder {
+    color: gray;
+    opacity: 0.7; 
+  }
+  
+/*For  Internet Explorer 10-11 and edge*/
+:-ms-input-placeholder {  
+   color: gray;
+}
+
+#homeButton{
+    position: relative;
+    left: 4.3em;
+    border: black solid 0.15em;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:small;
+    border-radius: 5px;
+}
+
+
+.footerContainer{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+} 
+
+#copyRight{
+    float: right;
+    position:relative;
+    padding-right: 0.5em;
+}
+
+#footerContact{
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+#footerContact p{
+    font-weight: 550;
+    font-size: large;
+    
+}
+/* END OF STYLES APPLICABLE TO ALL FORMS */
+
+
+
+
+/* SYLES APPLICABLE TO LOGIN PAGE ONLY */
+#emailLabel{
+    font-weight: bold;
+}
+
+#passwordLabel{
+    font-weight: bold;
+}
+
+#loginButton{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    position: relative;
+    left: 5em;
+    border: black solid 0.1em;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+
+
+#addpostLink{ 
+    text-align: center;
+    width: 20em;
+    margin: auto;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#addpostLink a{
+    text-decoration: none;
+}
+#addpostLink a:link{
+    color: black;
+}
+
+#addpostLink a:active{
+    color: black;
+}
+
+#addpostLink a:visited{
+    color: black;
+}
+/*  END OF SYLES APPLICABLE TO LOGIN PAGE ONLY */
+
+
+
+
+/* SYLES APPLICABLE TO ADDBLOG PAGE ONLY */
+#textBox{
+    width: 17em;
+}
+
+#titleLabel{
+    font-weight: bold;
+}
+
+#dateLabel{
+    font-weight: bold;
+}
+
+#textLabel{
+    font-weight: bold;
+}
+
+#postButton{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    position: relative;
+    width: 7em;
+    border: black solid 0.1em;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+#clearButton{
+    float: right;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    position: relative;
+    width: 7em;
+    margin-right: 2.2em;
+    border: black solid 0.1em;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 8px;
+}
+/*  END OF SYLES APPLICABLE TO ADDBLOG PAGE ONLY */

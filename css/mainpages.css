@@ -1,0 +1,253 @@
+/* TOTAL 36 STYLE RULES */
+
+
+/* STYLES FOR ALL PAGES */
+/* Styles applicable for the whole webpages */
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-weight: 600;
+    font-size: x-large;
+}
+h2{
+    font-weight: 600;
+    font-size: larger;
+}
+/* END of styles for whole webpage */
+
+
+/* Styles for navbar at the top */
+.navList{
+    background-color: rgb(100, 100, 100);
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4em;
+}
+
+.navItem{
+    margin-right: 1.3em;
+}
+
+.navItem a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+.navItem a:hover{
+    color: rgb(0, 160, 209);
+    transition: all 250ms ease-in;
+}
+
+.navItem:first-child{
+    margin-left: 0.5em;
+    margin-right: none;
+    font-size:larger;
+    vertical-align:middle;
+}
+
+.navItem:nth-child(2){
+    margin-left: none;
+    margin-right:auto;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.navItem:first-child img{
+    width: 40px;
+}
+
+.navItem:first-child b{
+    margin-bottom: 1em;
+    vertical-align: middle;
+}
+/* END of styles for Navbar */
+
+
+/* Style for Banner */
+#topBanner{
+    height: 1.5em;
+    background-color: rgb(148, 148, 148);
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: x-large;
+    font-weight: 400;
+}
+/* END of styles for banner */
+
+
+/* Styles for links */
+#links header{
+    padding-top: 0.4em;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#links ol{
+    padding-left: 9em;
+    padding-right: 9em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+/* END of styles for links */
+
+/* Styles for go to the other link */
+#gotoOther{
+    text-align: center;
+    font-size: small;
+}
+#gotoOther a{
+    text-decoration: none;
+}
+#gotoOther a:link{
+    color: black;
+}
+#gotoOther a:visited{
+    color: black;
+}
+#gotoOther a:hover{
+    color: rgb(0, 160, 209);
+    transition: all 250ms ease-in;
+}
+/* END of styles for go to the other link */
+
+/* Styles for footer */
+.footerContainer{
+    width: 100%;
+    background-color: rgba(91, 91, 91, 0.71);
+} 
+
+#copyRight{
+    float: right;
+    position:relative;
+    padding-right: 0.5em;
+}
+
+#footerContact{
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+#footerContact p{
+    font-weight: 550;
+    font-size: large;
+    
+}
+/* END of styles for footer */
+/* END OF STYLES FOR ALL PAGES */
+
+
+/* START OF STYLES FOR SPECIFIC PAGES */
+
+/* Styles for HOME PAGE */
+
+/* Front wallpaper style */
+#frontWallpaper img{
+	width:100%;
+	height: 90vh;
+}
+
+/* About me styles */
+#aboutMe{
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+    width: 81%;
+    height: 15em;
+}
+
+
+#aboutMe p{
+    margin-bottom: 0.5em;
+}
+
+#aboutMe figure {
+    border: 1px solid black;
+    padding: 5px;
+    width: 210px;
+    float: right;
+  }
+  
+#aboutMe  figcaption {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/* Education and projects styles */
+#education, #projects{
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+    width: 81%;
+    margin-bottom: 2em;
+    text-align: justify;
+}
+#projects figure {
+    border: 1px solid black;
+    padding: 5px;
+    width: 210px;
+    float: right;
+  }
+  
+#projects  figcaption {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
+
+#projects p{
+    margin-right: 14em;
+}
+/* END of styles for HOME PAGE */
+
+
+
+/* Styles for SECOND PAGE */
+
+/* Skills styles*/
+#skills{
+    margin-left: 15%;
+    margin-right: 14%;
+    width: 71%;
+}
+
+
+/* Experience styles */
+#experience{
+    margin-left: 15%;
+    margin-right: 14%;
+    width: 71%;
+    text-align: justify;
+}
+
+/* Other works styles */
+#otherWorks{
+    margin-left: 15%;
+    margin-right: 14%;
+    width: 71%;
+    text-align: justify;
+}
+
+#otherWorks figcaption {
+    font-size: small;
+    text-align: center;
+}
+/* END of styles for SECOND PAGE */
+
+
+
+
+
+

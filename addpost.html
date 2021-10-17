@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Addpost Page</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Abdullah Al Asif">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- addpost and login share the same css files -->
+     <link rel="stylesheet" type="text/css" href="css/reset.css"> 
+    <link rel="stylesheet" type="text/css" href="css/forms.css">
+</head>
+<body>
+    <div id="topGap"></div>
+
+    <div id="outerContainer">
+
+        <!-- ============ FORM ============ -->
+
+        <form method="POST" action="#">
+           
+                <!-- Top logo -->
+                <div id="topLogo">
+                    <img src="img/blog.png" alt="Login"> <br>
+                </div>
+
+                <legend id="topText">Add Blog</legend>
+
+                <!-- Content after logo -->
+                <div id="mainContent">
+
+                    <div>
+                        <p>
+                            <label id="titleLabel">Title:</label>
+                            <br>
+                            <input type="text" name="title" placeholder="Enter Title" class="inputBox" required>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <label id="dateLabel">Date:</label>
+                            <br>
+                            <input type="date" name="date" class="inputBox" required>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label id="textLabel">Text:</label>
+                            <br>
+                            <textarea name="text" class="inputBox" id="textBox" rows="4" placeholder="Enter your text here" required></textarea>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <button type="submit" id="postButton">Post</button>
+                            <button type="reset" id="clearButton">Clear</button>
+                        </p>
+                    </div>
+
+                    <!-- Button to go to homepage or index.html -->
+                    <div>
+                        <p>
+                            <a href="index.html"><button type="button" id="homeButton">Back to Home</button></a>
+                        </p>
+                    </div>
+
+
+                    
+                </div> 
+        </form>
+
+    <!-- ============ FOOTER ============ -->
+
+    <footer class="footerContainer">
+        <p id="copyRight">
+            <i>Copyright &copy; </i> 2021 <i>Abdullah Al Asif</i>
+        </p>
+        <section id="footerContact">
+            <p>Contact</p>
+
+            <img src="img/email.png" width="20px">
+            asifabdullah47@gmail.com
+        </section>
+    </footer>
+</body>
+</html>
