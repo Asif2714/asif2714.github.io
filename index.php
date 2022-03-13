@@ -61,7 +61,7 @@
         <ol>
             <li><a href="https://github.com/Asif2714" target="_blank"><img src="img/github.png" width="30px"></a></li>
             <li><a href="https://www.reddit.com/user/A14Inc" target="_blank"><img src="img/reddit.png" width="30px"></a></li>
-            <li><a href="https://www.linkedin.com/in/abdullahalasif2714/" target="_blank"><img src="img/linkedin.png" width="30px"></a></li>
+            <li><a href="https://www.linkedin.com/in/asif14/" target="_blank"><img src="img/linkedin.png" width="30px"></a></li>
             <li><a href="https://www.facebook.com/abdullahal.asif.79/" target="_blank"><img src="img/facebook.png" width="30px"></a></li>
             <li><a href="https://steamcommunity.com/id/a14inc/" target="_blank"><img src="img/steam.png" width="30px"></a></li>
         </ol>
