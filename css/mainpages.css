@@ -246,7 +246,7 @@ h2{
 }
 /* END of styles for SECOND PAGE */
 
-.announcement {
+#announcement {
     background-color: yellow; 
     color: black; 
     text-align: center;
